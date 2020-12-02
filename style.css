@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: white;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: lightblue;
     text-align: center;
 }
 
@@ -36,17 +36,15 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
+
+
 
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: lightblue;
     text-decoration: none;
 }
 
@@ -77,11 +75,11 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: skyblue;
 }
 
-nav li a.active {
-    background-color: skyblue;
+nav li a .active {
+    background-color: lightblue;
 }
 
 
